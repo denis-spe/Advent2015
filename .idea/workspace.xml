@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2adf0f67-febe-4ad0-b819-20a04228ac0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advent2015/com/Den/Test_Code.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Den/Code/Day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/Code/Day01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Den/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Den/TestCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/TestCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Den/sourceCode/Day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/Code/Day01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.TestCode">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.Den.Main" />
       <module name="Advent2015" />
@@ -136,8 +135,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCode" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestCode" />
       </list>
     </recent_temporary>
   </component>

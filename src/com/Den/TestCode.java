@@ -12,6 +12,9 @@ public class TestCode {
 
     @Test
     public void testDay01(){
+        /*
+          ******* PartOne Test Case *********
+         */
         // First Test
         assertEquals(day01.partOne("(())"), 0);
 
@@ -38,6 +41,20 @@ public class TestCode {
 
         // ninth Test
         assertEquals(day01.partOne(")())())"), -3);
+
+        /*
+         ******* PartTwo Test Case *********
+         */
+        // One Test
+        assertEquals(day01.partTwo(")))"), 1);
+
+        // Two Test
+        assertEquals(day01.partTwo(")"), 1);
+
+        // Three Test
+        assertEquals(day01.partTwo("()())"), 5);
+
+
     }
 
 }

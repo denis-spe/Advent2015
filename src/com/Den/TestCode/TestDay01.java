@@ -1,17 +1,20 @@
-package com.Den;
+package com.Den.TestCode;
 import com.Den.Code.Day01;
 import org.junit.*;
 import static org.junit.Assert.*;
 
-public class TestCode {
+public class TestDay01 {
     Day01 day01;
     @Before
-    public void testBefore(){
+    public void setUp(){
         day01 = new Day01();
     }
 
     @Test
     public void testDay01(){
+        /*
+          ******* PartOne Test Case *********
+         */
         // First Test
         assertEquals(day01.partOne("(())"), 0);
 
@@ -38,6 +41,20 @@ public class TestCode {
 
         // ninth Test
         assertEquals(day01.partOne(")())())"), -3);
+
+        /*
+         ******* PartTwo Test Case *********
+         */
+        // One Test
+        assertEquals(day01.partTwo(")))"), 1);
+
+        // Two Test
+        assertEquals(day01.partTwo(")"), 1);
+
+        // Three Test
+        assertEquals(day01.partTwo("()())"), 5);
+
+
     }
 
 }

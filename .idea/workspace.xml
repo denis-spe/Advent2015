@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2adf0f67-febe-4ad0-b819-20a04228ac0b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advent2015/com/Den/Test_Code.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advent2015.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Advent2015.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advent2015/com/Den/FileRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent2015/com/Den/FileRead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advent2015/com/Den/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent2015/com/Den/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advent2015/com/Den/TestCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Den/FileRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/FileRead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Den/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Den/TestCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/TestCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Den/sourceCode/Day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/Code/Day01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Den/TestCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/TestCode/TestDay01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,6 +31,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -91,20 +104,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
-  <component name="RunManager" selected="JUnit.TestCode">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.Den.Main" />
       <module name="Advent2015" />
@@ -114,30 +119,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDay01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent2015" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Den.*" />
+          <option name="PATTERN" value="com.Den.TestCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Den" />
-      <option name="MAIN_CLASS_NAME" value="com.Den.TestCode" />
+      <option name="PACKAGE_NAME" value="com.Den.TestCode" />
+      <option name="MAIN_CLASS_NAME" value="com.Den.TestCode.TestDay01" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDay02" type="JUnit" factoryName="JUnit">
+      <module name="Advent2015" />
+      <option name="PACKAGE_NAME" value="com.Den.TestCode" />
+      <option name="MAIN_CLASS_NAME" value="com.Den.TestCode.TestDay02" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDay02.testTotalSquareFeet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advent2015" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Den.TestCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Den.TestCode" />
+      <option name="MAIN_CLASS_NAME" value="com.Den.TestCode.TestDay02" />
+      <option name="METHOD_NAME" value="testTotalSquareFeet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.TestCode" />
+      <item itemvalue="JUnit.TestDay02" />
+      <item itemvalue="JUnit.TestDay02.testTotalSquareFeet" />
+      <item itemvalue="JUnit.TestDay01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCode" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestDay02.testTotalSquareFeet" />
+        <item itemvalue="JUnit.TestDay01" />
       </list>
     </recent_temporary>
   </component>
@@ -168,5 +202,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Den/Code/Day02Files/Box.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.Den.FileRead" memberName="filePath" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

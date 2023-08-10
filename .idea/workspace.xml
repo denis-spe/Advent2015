@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2adf0f67-febe-4ad0-b819-20a04228ac0b" name="Changes" comment="Completed Day01" />
+    <list default="true" id="2adf0f67-febe-4ad0-b819-20a04228ac0b" name="Changes" comment="Completed Day01">
+      <change afterPath="$PROJECT_DIR$/src/com/Den/Code/Day02Files/Ribbon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advent2015.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Advent2015.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advent2015/com/Den/Code/Day02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent2015/com/Den/Code/Day02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advent2015/com/Den/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent2015/com/Den/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advent2015/com/Den/TestCode/TestDay02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent2015/com/Den/TestCode/TestDay02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Den/Code/Day02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/Code/Day02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Den/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Den/TestCode/TestDay02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Den/TestCode/TestDay02.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -35,9 +46,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/out/production/advent2015/com/Den/Main.class" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="22pdSWCFQPOKTdOwWe0mCoZzrPr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -101,46 +118,28 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/LocalDiskB/Java/Advent2015&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.Den.Main" />
       <module name="Advent2015" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDay01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advent2015" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Den.TestCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Den.TestCode" />
-      <option name="MAIN_CLASS_NAME" value="com.Den.TestCode.TestDay01" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDay02" type="JUnit" factoryName="JUnit">
-      <module name="Advent2015" />
-      <option name="PACKAGE_NAME" value="com.Den.TestCode" />
-      <option name="MAIN_CLASS_NAME" value="com.Den.TestCode.TestDay02" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDay02.testTotalSquareFeet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDay02.testFeetToWarpPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advent2015" />
       <extension name="coverage">
         <pattern>
@@ -150,23 +149,31 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.Den.TestCode" />
       <option name="MAIN_CLASS_NAME" value="com.Den.TestCode.TestDay02" />
-      <option name="METHOD_NAME" value="testTotalSquareFeet" />
+      <option name="METHOD_NAME" value="testFeetToWarpPresent" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDay2" type="JUnit" factoryName="JUnit">
+      <module name="Advent2015" />
+      <option name="PACKAGE_NAME" value="com.Den.TestCode" />
+      <option name="MAIN_CLASS_NAME" value="com.Den.TestCode.TestDay02" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.TestDay02" />
-      <item itemvalue="JUnit.TestDay02.testTotalSquareFeet" />
-      <item itemvalue="JUnit.TestDay01" />
+      <item itemvalue="JUnit.TestDay2" />
+      <item itemvalue="JUnit.TestDay02.testFeetToWarpPresent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDay02.testFeetToWarpPresent" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestDay02.testTotalSquareFeet" />
-        <item itemvalue="JUnit.TestDay01" />
       </list>
     </recent_temporary>
   </component>
@@ -215,9 +222,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/Den/Code/Day02Files/Box.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/com/Den/TestCode/TestDay02.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Den/Code/Day02Files/Ribbon.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,8 +1,7 @@
 package com.Den;
 
-import com.Den.Code.Day01;
-import com.Den.Code.Day02;
-import com.Den.Code.Day02Files.Ribbon;
+import com.Den.Code.day01.Day01;
+import com.Den.Code.day02.Day02;
 
 import java.io.FileNotFoundException;
 
@@ -31,6 +30,10 @@ public class Main {
         System.out.println("Part 1: " + day02.partOne());
         //////// Part Two \\\\\\
         System.out.println("Part 2: " + day02.partTwo());
+
+        /*
+        ***** Day03 ****
+         */
 
     }
 }

@@ -1,4 +1,4 @@
-package com.Den.Code;
+package com.Den.Code.day01;
 
 
 public class Day01{

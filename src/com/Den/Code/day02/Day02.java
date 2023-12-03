@@ -1,7 +1,7 @@
-package com.Den.Code;
+package com.Den.Code.day02;
 
-import com.Den.Code.Day02Files.Box;
-import com.Den.Code.Day02Files.Ribbon;
+import com.Den.Code.day02.Box;
+import com.Den.Code.day02.Ribbon;
 import com.Den.FileRead;
 
 import java.io.FileNotFoundException;

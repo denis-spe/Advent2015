@@ -1,12 +1,7 @@
-package com.Den.Code.Day02Files;
+package com.Den.Code.day02;
 
-import com.Den.FileRead;
-
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.Optional;
 
 /**
  * Ribbon is all the same width

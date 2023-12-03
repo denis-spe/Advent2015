@@ -1,5 +1,5 @@
 package com.Den.TestCode;
-import com.Den.Code.Day01;
+import com.Den.Code.day01.Day01;
 import org.junit.*;
 import static org.junit.Assert.*;
 

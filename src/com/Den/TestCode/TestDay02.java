@@ -1,8 +1,8 @@
 package com.Den.TestCode;
-import com.Den.Code.Day02Files.Box;
-import com.Den.Code.Day02Files.Present;
-import com.Den.Code.Day02Files.PresentRibbon;
-import com.Den.Code.Day02Files.Ribbon;
+import com.Den.Code.day02.Box;
+import com.Den.Code.day02.Present;
+import com.Den.Code.day02.PresentRibbon;
+import com.Den.Code.day02.Ribbon;
 import org.junit.*;
 import java.util.LinkedList;
 import static org.junit.Assert.*;

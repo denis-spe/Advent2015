@@ -1,4 +1,4 @@
-package com.Den.Code.Day02Files;
+package com.Den.Code.day02;
 
 import java.util.LinkedList;
 
